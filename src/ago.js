@@ -4,7 +4,9 @@ module.exports = function (time) {
 
   var date = time
 
-  if (typeof time === 'string') {
+  if (typeof time === 'number') {
+    date = new Date(time * 1000)
+  } else if (typeof time === 'string') {
     date = dateFromISO(time)
   }
 
