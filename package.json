@@ -1,6 +1,6 @@
 {
   "name": "time-from-now",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Super tiny lib for getting relative time (ago). eg. now, 1m, 17h, 3w etc.",
   "main": "index.js",
   "scripts": {
