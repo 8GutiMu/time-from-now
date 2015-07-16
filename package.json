@@ -1,0 +1,26 @@
+{
+  "name": "time-from-now",
+  "version": "0.0.1",
+  "description": "Super tiny lib for getting relative time (ago). eg. now, 1m, 17h, 3w etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsifalda/time-from-now.git"
+  },
+  "keywords": [
+    "time",
+    "ago",
+    "date",
+    "relative",
+    "parsing"
+  ],
+  "author": "Jiri Sifalda <sifalda.jiri@gmail.com> (http://jsifalda.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsifalda/time-from-now/issues"
+  },
+  "homepage": "https://github.com/jsifalda/time-from-now#readme"
+}
