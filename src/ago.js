@@ -15,7 +15,7 @@ module.exports = function (time) {
   if (date !== null) {
 
     var diff = (((new Date()).getTime() - date.getTime()) / 1000)
-    var day_diff = Math.floor(diff / 86400)
+    var day_diff = Math.floor(Math.abs(diff / 86400))
 
     if (!isNaN(day_diff) && day_diff >= 0) {
 
