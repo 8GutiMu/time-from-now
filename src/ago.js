@@ -4,7 +4,7 @@ module.exports = function (time) {
 
   var date = null
 
-  if (time && typeof time.getTime !== 'undefined') {
+  if (time && typeof time.getTime === 'function') {
     date = time
   } else if (typeof time === 'number') {
     date = new Date(time * 1000)
@@ -12,7 +12,7 @@ module.exports = function (time) {
     date = dateFromISO(time)
   }
 
-  if (date) {
+  if (date !== null) {
 
     var diff = (((new Date()).getTime() - date.getTime()) / 1000)
     var day_diff = Math.floor(diff / 86400)
